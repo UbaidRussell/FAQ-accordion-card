@@ -64,8 +64,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [UbaidRussell](https://ubaidrussell.com/)
+- Frontend Mentor - [@UbaidRussell](https://www.frontendmentor.io/profile/UbaidRussell)
+- X - [@UbaidRussell](https://twitter.com/UbaidRussell)
 
 ## Acknowledgments
