@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/UbaidRussell/FAQ-accordion-card](https://github.com/UbaidRussell/FAQ-accordion-card)
+- Live Site URL: [https://ubaidrussell.com/FAQ-accordion-card/](https://ubaidrussell.com/FAQ-accordion-card/)
 
 ## My process
 
