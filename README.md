@@ -19,6 +19,8 @@ This is my solution to the [FAQ accordion card challenge on Frontend Mentor](htt
 
 ## Overview
 
+FAQ Webpage with accordion card. We are provided with the mobile and desktop design of the webpage and we have to build it according to the design. This is a cool project that we can use in the future incase we need to add a FAQ section to any of our websites.
+
 ### The challenge
 
 Users should be able to:
