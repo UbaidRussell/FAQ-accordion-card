@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     background:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 #main-container{
@@ -16,6 +17,11 @@ body{
     width:1050px;
     height: 650px;
     border-radius: 20px;
+}
+#heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 #image-section{
