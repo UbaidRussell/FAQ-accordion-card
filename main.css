@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
 #main-container{
@@ -16,6 +17,6 @@ body{
     height: 600px;
 }
 
-.woman{
+#image-section{
     float:left;
 }
