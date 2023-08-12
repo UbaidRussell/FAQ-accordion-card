@@ -21,3 +21,6 @@ body{
 #image-section{
     float:left;
 }
+.woman-mobile-version{
+    display: none;
+}
