@@ -21,7 +21,8 @@ body{
 #heading{
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 #image-section{
@@ -47,6 +48,7 @@ body{
 
 #faq-section{
     width: 50%;
+    height:100%;
 }
 #faq-section hr{
     width: 80%;
@@ -55,6 +57,9 @@ body{
 }
 
 
+#card{
+    height:50px
+}
 .card-answer{
     /* visibility: hidden; */
     display:none;
