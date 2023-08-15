@@ -24,7 +24,7 @@ body{
     margin-top:50px;
     margin-bottom: 50px;
 }
-
+/* This is the image section of our site */
 #image-section{
     width: 50%;
     margin-right:20px;
@@ -45,6 +45,7 @@ body{
     z-index: 0;
 }
 
+
 /* This is code for out faq section */
 #faq-section{
     width: 50%;
@@ -54,6 +55,12 @@ body{
     width: 80%;
     margin: 20px 0;
     border: 1px solid hsl(240, 73%, 65%);
+}
+
+#faq-section .arrow{
+    float: right;
+    margin-right: 120px;
+    margin-top: 10px;
 }
 
 
@@ -66,7 +73,6 @@ body{
     margin-top:30px;
 }
 .card-answer{
-    /* visibility: hidden; */
     display:none;
 }
 
