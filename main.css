@@ -45,7 +45,7 @@ body{
     z-index: 0;
 }
 
-
+/* This is code for out faq section */
 #faq-section{
     width: 50%;
     height:100%;
@@ -61,15 +61,15 @@ body{
     height:50px;
     width: 100%;
 }
+.card-question{
+    display:inline;
+    margin-top:30px;
+}
 .card-answer{
     /* visibility: hidden; */
     display:none;
 }
 
-
-.card-question{
-    display:inline;
-}
 .arrow{
     display: inline-block;
 }
