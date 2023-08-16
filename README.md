@@ -72,3 +72,4 @@ Users should be able to:
 - X - [@UbaidRussell](https://twitter.com/UbaidRussell)
 
 ## Acknowledgments
+Shout out to the guys at frontendmentor.io for creating such a great platform for us to practice our skills.
