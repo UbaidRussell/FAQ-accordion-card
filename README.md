@@ -63,7 +63,7 @@ Users should be able to:
 
 - [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) -  This helped me for aligning items in a flex container. I really liked this pattern and will use it going forward.
 
-- [Example resource 2]() - 
+- [Example resource 2](https://stackoverflow.com/questions/2993851/how-to-remove-an-element-from-the-flow) - This is an amazing article which helped me finally understand how to remove an element from the flow of our document. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
