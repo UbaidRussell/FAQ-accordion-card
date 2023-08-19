@@ -65,8 +65,9 @@ body{
 .card-answer{
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 400px;
+    width: 450px;
     display: none;
+    color: hsl(237, 12%, 33%);
 }
 #card .arrow{
     display: inline;
