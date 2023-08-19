@@ -9,3 +9,10 @@ firstQuestion.addEventListener('click', function(){
     firstAnswer.style.marginBottom = '10px';
     firstQuestion.style.fontWeight = 'bold';
 }) 
+//Work in progress for our second click on the first question to make it disappear after the first click if clicked again
+/* firstQuestion.addEventListener('dblclick', function(){
+    firstQuestion.style.marginBottom = '0px';
+    firstAnswer.style.display = 'none';
+    firstAnswer.style.marginBottom = '0px';
+    firstQuestion.style.fontWeight = 'normal';
+}) */
