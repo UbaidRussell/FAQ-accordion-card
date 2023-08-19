@@ -65,11 +65,13 @@ body{
 .card-answer{
     margin-top: 0px;
     margin-bottom: 0px;
+    visibility: collapse;
 }
 #card .arrow{
     display: inline;
 }
 hr{
+    position: relative;
     width: 80%;
     margin-left: 0px;
     margin-top: 0px;
