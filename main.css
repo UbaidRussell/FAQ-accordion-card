@@ -51,10 +51,10 @@ body{
     display: flex;
     flex-direction: column;
     width:525px;
-    height: 600px;
+/*     height: 600px; */
 }
 #card{
-    height: 80px;
+    /* height: 80px; */
     width:525px;
 }
 .card-question{
@@ -65,10 +65,12 @@ body{
 .card-answer{
     margin-top: 0px;
     margin-bottom: 0px;
-    visibility: collapse;
+    width: 400px;
+    display: none;
 }
 #card .arrow{
     display: inline;
+    margin:0;
 }
 hr{
     position: relative;
