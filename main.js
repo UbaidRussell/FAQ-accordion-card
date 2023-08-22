@@ -9,18 +9,19 @@ firstQuestion.addEventListener('click', function(){
     firstAnswer.style.display = 'block';
     firstAnswer.style.marginBottom = '10px';
     firstQuestion.style.fontWeight = 'bold';
-}) 
+
+    //This code closes our first question when we click on it again
+    this.addEventListener('click', function(){
+        firstQuestion.style.marginBottom = '20px';
+        firstAnswer.style.display = 'none';
+        firstAnswer.style.marginBottom = '0px';
+        firstQuestion.style.fontWeight = 'normal';
+    })
+})
+
 secondQuestion.addEventListener('click', function(){
     secondQuestion.style.marginBottom = '5px';
     secondAnswer.style.display = 'block';
     secondAnswer.style.marginBottom = '10px';
     secondQuestion.style.fontWeight = 'bold';
 })
-
-//Work in progress for our second click on the first question to make it disappear after the first click if clicked again
-/* firstQuestion.addEventListener('dblclick', function(){
-    firstQuestion.style.marginBottom = '0px';
-    firstAnswer.style.display = 'none';
-    firstAnswer.style.marginBottom = '0px';
-    firstQuestion.style.fontWeight = 'normal';
-}) */
