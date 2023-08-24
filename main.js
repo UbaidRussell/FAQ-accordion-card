@@ -31,6 +31,13 @@ secondQuestion.addEventListener('click', function(){
     secondAnswer.style.display = 'block';
     secondAnswer.style.marginBottom = '10px';
     secondQuestion.style.fontWeight = 'bold';
+    //This code closes our first question when we click on it again
+    this.addEventListener('click', function(){
+        secondQuestion.style.marginBottom = '20px';
+        secondAnswer.style.display = 'none';
+        secondAnswer.style.marginBottom = '0px';
+        secondQuestion.style.fontWeight = 'normal';
+    })
 })
 
 thirdQuestion.addEventListener('click', function(){
