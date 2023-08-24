@@ -45,6 +45,12 @@ thirdQuestion.addEventListener('click', function(){
     thirdAnswer.style.display = 'block';
     thirdAnswer.style.marginBottom = '10px';
     thirdQuestion.style.fontWeight = 'bold';
+    this.addEventListener('click', function(){
+        thirdQuestion.style.marginBottom = '20px';
+        thirdAnswer.style.display = 'none';
+        thirdAnswer.style.marginBottom = '0px';
+        thirdQuestion.style.fontWeight = 'normal';
+    })
 })
 
 fourthQuestion.addEventListener('click', function(){
@@ -52,6 +58,12 @@ fourthQuestion.addEventListener('click', function(){
     fourthAnswer.style.display = 'block';
     fourthAnswer.style.marginBottom = '10px';
     fourthQuestion.style.fontWeight = 'bold';
+    this.addEventListener('click', function(){
+        fourthQuestion.style.marginBottom = '20px';
+        fourthAnswer.style.display = 'none';
+        fourthAnswer.style.marginBottom = '0px';
+        fourthQuestion.style.fontWeight = 'normal';
+    })
 })
 
 fifthQuestion.addEventListener('click', function(){
@@ -59,4 +71,10 @@ fifthQuestion.addEventListener('click', function(){
     fifthAnswer.style.display = 'block';
     fifthAnswer.style.marginBottom = '10px';
     fifthQuestion.style.fontWeight = 'bold';
+    this.addEventListener('click', function(){
+        fifthQuestion.style.marginBottom = '20px';
+        fifthAnswer.style.display = 'none';
+        fifthAnswer.style.marginBottom = '0px';
+        fifthQuestion.style.fontWeight = 'normal';
+    })
 })
