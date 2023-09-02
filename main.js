@@ -3,6 +3,9 @@ const firstQuestion = document.getElementsByClassName('card-question')[0];
 const firstAnswer = document.getElementsByClassName('card-answer')[0];
 const secondQuestion = document.getElementsByClassName('card-question')[1];
 const secondAnswer = document.getElementsByClassName('card-answer')[1];
+const thirdQuestion = document.getElementsByClassName('card-question')[2];
+const thirdAnswer = document.getElementsByClassName('card-answer')[2];
+
 
 const toggleHiddenElement = (domElement) => {
     if (domElement.style.display === 'none') {
@@ -36,6 +39,23 @@ const toggleHiddenElement2 = (domElement) => {
 
 
 
+const toggleHiddenElement3 = (domElement) => {
+    if (domElement.style.display === 'none') {
+       thirdQuestion.style.marginBottom = '5px';
+        thirdAnswer.style.display = 'block';
+        thirdAnswer.style.marginBottom = '10px';
+        thirdQuestion.style.fontWeight = 'bold';
+    
+    } else {
+        thirdQuestion.style.marginBottom = '20px';
+        thirdAnswer.style.display = 'none';
+        thirdAnswer.style.marginBottom = '0px';
+        thirdQuestion.style.fontWeight = 'normal';
+    }
+}
+
+
+
 
 
 
@@ -45,4 +65,9 @@ firstQuestion.addEventListener('click', () => {
 
 secondQuestion.addEventListener('click', () => {
     toggleHiddenElement2(secondAnswer);
-  });
+});
+
+
+thirdQuestion.addEventListener('click', () => {
+    toggleHiddenElement3(thirdAnswer);
+} );
