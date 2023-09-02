@@ -5,6 +5,10 @@ const secondQuestion = document.getElementsByClassName('card-question')[1];
 const secondAnswer = document.getElementsByClassName('card-answer')[1];
 const thirdQuestion = document.getElementsByClassName('card-question')[2];
 const thirdAnswer = document.getElementsByClassName('card-answer')[2];
+const fourthQuestion = document.getElementsByClassName('card-question')[3];
+const fourthAnswer = document.getElementsByClassName('card-answer')[3];
+const fifthQuestion = document.getElementsByClassName('card-question')[4];
+const fifthAnswer = document.getElementsByClassName('card-answer')[4];
 
 
 const toggleHiddenElement = (domElement) => {
@@ -54,20 +58,51 @@ const toggleHiddenElement3 = (domElement) => {
     }
 }
 
+const toggleHiddenElement4 = (domElement) => {
+    if (domElement.style.display === 'none') {
+        fourthQuestion.style.marginBottom = '5px';
+        fourthAnswer.style.display = 'block';
+        fourthAnswer.style.marginBottom = '10px';
+        fourthQuestion.style.fontWeight = 'bold';
+    }else {
+        fourthQuestion.style.marginBottom = '20px';
+        fourthAnswer.style.display = 'none';
+        fourthAnswer.style.marginBottom = '0px';
+        fourthQuestion.style.fontWeight = 'normal';
+    }
+}
+
+
+const toggleHiddenElement5 = (domElement) => {
+    if (domElement.style.display === 'none') {
+        fifthQuestion.style.marginBottom = '5px';
+        fifthAnswer.style.display = 'block';
+        fifthAnswer.style.marginBottom = '10px';
+        fifthQuestion.style.fontWeight = 'bold';
+    }else { 
+        fifthQuestion.style.marginBottom = '20px';
+        fifthAnswer.style.display = 'none';
+        fifthAnswer.style.marginBottom = '0px';
+        fifthQuestion.style.fontWeight = 'normal';
+    }
+}
 
 
 
-
-
+//Thease activate the functions above on click
 firstQuestion.addEventListener('click', () => {
   toggleHiddenElement(firstAnswer);
 });
-
 secondQuestion.addEventListener('click', () => {
     toggleHiddenElement2(secondAnswer);
 });
-
-
 thirdQuestion.addEventListener('click', () => {
     toggleHiddenElement3(thirdAnswer);
-} );
+});
+fourthQuestion.addEventListener('click', () => {
+    toggleHiddenElement4(fourthAnswer);
+});
+
+fifthQuestion.addEventListener('click', () => {
+    toggleHiddenElement5(fifthAnswer);
+});
