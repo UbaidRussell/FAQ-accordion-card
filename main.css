@@ -72,9 +72,11 @@ button{
 .card-answer{
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 450px;
+    width: 400px;
     display: none;
     color: hsl(237, 12%, 33%);
+    padding:10px;
+    padding-right:40px;
 }
 #card .arrow{
     display: inline;
