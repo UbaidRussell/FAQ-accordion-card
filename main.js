@@ -3,7 +3,6 @@ const firstQuestion = document.getElementsByClassName('card-question')[0];
 const firstAnswer = document.getElementsByClassName('card-answer')[0];
 const firstArrow = document.getElementsByClassName('arrow')[0];
 
-
 const secondQuestion = document.getElementsByClassName('card-question')[1];
 const secondAnswer = document.getElementsByClassName('card-answer')[1];
 const secondArrow = document.getElementsByClassName('arrow')[1];
@@ -11,7 +10,6 @@ const secondArrow = document.getElementsByClassName('arrow')[1];
 const thirdQuestion = document.getElementsByClassName('card-question')[2];
 const thirdAnswer = document.getElementsByClassName('card-answer')[2];
 const thirdArrow = document.getElementsByClassName('arrow')[2];
-
 
 const fourthQuestion = document.getElementsByClassName('card-question')[3];
 const fourthAnswer = document.getElementsByClassName('card-answer')[3];
