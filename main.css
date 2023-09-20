@@ -8,6 +8,7 @@ body{
     align-items: center;
     background:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-family: 'Kumbh Sans', sans-serif;
+    contain:strict;
 }
 
 #main-container{
@@ -31,17 +32,17 @@ body{
 }
 .woman{
     position: relative;
-    width: 500px;
-    height: 600px;
-    right: 100px;
-    z-index: 1;
+    width: 30em;
+    height: 60em;
+    right: 5em;
+    z-index: 5;
 }
 .pattern{
     position: absolute;
-    width:500px;
-    height:600px;
-    left: 10px;
-    top: 50px;
+    width: 31.5em;
+    height:35em;
+    left: 1em;
+    top: 20px;
 }
 
 
@@ -50,10 +51,8 @@ body{
     display: flex;
     flex-direction: column;
     width:525px;
-/*     height: 600px; */
 }
 #card{
-    /* height: 80px; */
     width:525px;
 }
 button{
