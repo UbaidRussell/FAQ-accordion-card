@@ -119,6 +119,8 @@ hr{
         left: 2vw;
         z-index: 1;
         margin-top: 200px;
+        margin-bottom:200px;
+        top:200px;
     }
     .pattern{
         position: absolute;
