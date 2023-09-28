@@ -97,6 +97,7 @@ hr{
     body{
         width: 100vw;
         height: 100vh;
+        contain:none;
     }
     #main-container{
         width: 90vw;    
