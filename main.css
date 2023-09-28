@@ -124,6 +124,7 @@ hr{
         top:200px;
     }
     .pattern{
+        display: none;
         position: absolute;
         width: 350px;
         height: 350px;
@@ -147,7 +148,7 @@ hr{
         margin-right: 0px;
     }
     #card-answer{
-        width: 80vw;
+        width: 60vw;
         margin-left: 20px;
         margin-right: 20px;
     }
