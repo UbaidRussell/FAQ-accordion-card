@@ -102,7 +102,7 @@ hr{
     #main-container{
         width: 90vw;    
         height: 1400px;
-        border-radius: 0px;
+        border-radius: 20px;
         flex-direction: column;
         border-radius: 20px;
         margin:20px;
