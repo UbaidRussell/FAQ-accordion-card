@@ -39,9 +39,9 @@ body{
 }
 .pattern{
     position: absolute;
-    width: 31.5em;
-    height:35em;
-    left: 21em;
+    width: 34.5em;
+    height:37em;
+    left: 0.1em;
     margin-top: 200px;
 }
 
@@ -163,5 +163,19 @@ hr{
         margin-top: 0px;
         margin-bottom: 0px;
         border: 1px solid hsl(240, 5%, 91%);
+    }
+}
+
+
+/* Media query for larger computer */
+@media only screen and (min-width:1400px){
+    .woman{
+        position: relative;
+        width: 35em;
+        height: 65em;
+        right: 5em;
+    }
+    .pattern{
+        left: 20em;
     }
 }
