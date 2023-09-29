@@ -100,7 +100,7 @@ hr{
         contain:none;
     }
     #main-container{
-        width: 90vw;    
+        width: 450px;    
         height: 1400px;
         border-radius: 20px;
         flex-direction: column;
