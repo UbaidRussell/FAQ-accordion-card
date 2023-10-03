@@ -50,11 +50,12 @@ Users should be able to:
 
 ### What I learned
 
+This code snippet shows how I used the contain property to make the image not overflow the container. This is a very useful property and I will be using it in the future when it comes to keeping elements contained inside their containers.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+   body{
+    contain:strict;
+   }
 ```
 
 ### Continued development
