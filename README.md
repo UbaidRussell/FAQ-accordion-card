@@ -39,6 +39,7 @@ Users should be able to:
 - Live Site URL: [https://ubaidrussell.com/FAQ-accordion-card/](https://ubaidrussell.com/FAQ-accordion-card/)
 
 ## My process
+On this project I sorta just went straight in and started doing it, I think it can be a lot better and will continue to improve on making this website better 
 
 ### Built with
 
