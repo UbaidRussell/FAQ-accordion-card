@@ -61,6 +61,8 @@ This code snippet shows how I used the contain property to make the image not ov
 
 ### Continued development
 
+To make this better we're going to add some javascript to make the accordion work. We're also going to add some more styling to make it look better. We're also going to add some more content to the page to make it look more like the design.
+
 ### Useful resources
 
 - [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) -  This helped me for aligning items in a flex container. I really liked this pattern and will use it going forward.
@@ -70,8 +72,8 @@ This code snippet shows how I used the contain property to make the image not ov
 ## Author
 
 - Website - [UbaidRussell](https://ubaidrussell.com/)
-- Frontend Mentor - [@UbaidRussell](https://www.frontendmentor.io/profile/UbaidRussell)
-- X - [@UbaidRussell](https://twitter.com/UbaidRussell)
+- Frontend Mentor - [UbaidRussell](https://www.frontendmentor.io/profile/UbaidRussell)
+- X - [UbaidRussell](https://twitter.com/UbaidRussell)
 
 ## Acknowledgments
 Shout out to the guys at frontendmentor.io for creating such a great platform for us to practice our skills.
