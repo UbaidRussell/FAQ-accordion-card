@@ -48,6 +48,7 @@ On this project I sorta just went straight in and started doing it, I think it c
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Javascript
 
 ### What I learned
 
